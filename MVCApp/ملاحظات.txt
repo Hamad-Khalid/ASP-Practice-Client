@@ -1,0 +1,6 @@
+MVC:
+
+- MVC stands for: Models (information entities), Views (User Interfaces)
+& Controllers (actions to be executed)
+
+- MVC apps are devided into folders following that idea, along with other necessary folders
