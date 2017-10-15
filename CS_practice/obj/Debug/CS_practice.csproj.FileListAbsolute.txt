@@ -1,0 +1,9 @@
+c:\users\cugcc\documents\visual studio 2013\Projects\CS_practice\CS_practice\bin\Debug\CS_practice.exe.config
+c:\users\cugcc\documents\visual studio 2013\Projects\CS_practice\CS_practice\bin\Debug\CS_practice.exe
+c:\users\cugcc\documents\visual studio 2013\Projects\CS_practice\CS_practice\bin\Debug\CS_practice.pdb
+c:\users\cugcc\documents\visual studio 2013\Projects\CS_practice\CS_practice\obj\Debug\CS_practice.csprojResolveAssemblyReference.cache
+c:\users\cugcc\documents\visual studio 2013\Projects\CS_practice\CS_practice\obj\Debug\CS_practice.exe
+c:\users\cugcc\documents\visual studio 2013\Projects\CS_practice\CS_practice\obj\Debug\CS_practice.pdb
+C:\Users\CUGCC\Desktop\Work\دورات\ASP.Net دورة\CS_practice\CS_practice\bin\Debug\CS_practice.exe.config
+C:\Users\CUGCC\Desktop\Work\دورات\ASP.Net دورة\CS_practice\CS_practice\obj\Debug\CS_practice.exe
+C:\Users\CUGCC\Desktop\Work\دورات\ASP.Net دورة\CS_practice\CS_practice\obj\Debug\CS_practice.pdb

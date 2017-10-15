@@ -1,0 +1,17 @@
+classes:
+
+- To access items in project B from project A, B must be referenced by A
+and the referenced class must be public.
+
+- We can also access the contents of a library or a project (B) from project A using 
+the compiled version of B only, without a need to move B entirely.
+That is done by compiling B and referencing its .dll in A`s references.
+
+- Access Modifiers:
+	Public: it can be accessed by any class
+	Internal: it can be accessed by other classes within the same project 
+	Private: it can be accessed wthin its class
+	Protected: it can be accessed by its class and all child classes
+
+- Methods that might be overriden must use the keyword Virtual in the base (parent) class
+	
