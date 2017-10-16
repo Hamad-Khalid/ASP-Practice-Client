@@ -8,6 +8,14 @@ MVC:
 - In MVC we don`t use <% %> instead we use @{ Code } to perform some code 
 or @ElementX.atrributeY to get the value of attributeY of ElementX
 
+
 Views:
-- All pages inherit _ViewStart.cshtml, which basically is setting the layout of the page 
-to _Layout,cshtml
+
+- All pages inherit _ViewStart.cshtml, which basically is setting the layout of the page to some layout file.
+
+Controllers:
+
+- ActionLink is a function that takes three parameters, first is the string to be displayed on the link,
+second is the action (method) to be called and third is the controller whithin which is that action.
+
+- View() is a function that returns the view related to that action (method)

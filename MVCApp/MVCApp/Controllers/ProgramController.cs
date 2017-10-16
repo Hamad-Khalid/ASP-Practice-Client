@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace MVCApp.Controllers
 {
-    public class HelloController : Controller
+    public class ProgramController : Controller
     {
         //
-        // GET: /Hello/
-        public ActionResult Index()
+        // GET: /Program/
+        public ActionResult ProgName()
         {
-            ViewBag.Message = "Hello from Hamad using MVC";
             return View();
         }
 	}
