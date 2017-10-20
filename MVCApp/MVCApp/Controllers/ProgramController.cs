@@ -12,7 +12,20 @@ namespace MVCApp.Controllers
         // GET: /Program/
         public ActionResult ProgName()
         {
-            return View();
+            List<Models.Program> programs = new List<Models.Program>();
+            programs.Add(new Models.Program() { Name = "Sports", time = "10:30" });
+            programs.Add(new Models.Program() { Name = "Film", time = "11:30" });
+            programs.Add(new Models.Program() { Name = "News", time = "12:30" });
+            return View(programs);
         }
-	}
+
+        public ActionResult Programmy()
+        {
+            List<Models.Program> programs = new List<Models.Program>();
+            programs.Add(new Models.Program() { Name = "Sports", time = "10:30" });
+            programs.Add(new Models.Program() { Name = "Film", time = "11:30" });
+            programs.Add(new Models.Program() { Name = "News", time = "12:30" });
+            return View(programs);
+        }
+    }
 }

@@ -1,10 +1,28 @@
-﻿@{
+﻿@model IEnumerable<MVCApp.Models.Program>
+
+@{
     ViewBag.Title = "ProgName";
 }
 
-<h2>Time Slot</h2>
-@{
-    MVCApp.Models.Program Prog1 = new MVCApp.Models.Program();
-}
-<h2>@Prog1.currentTimeSlot()</h2>
+<h2>ProgName</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Name
+        </td>
+        <td>
+            @item.time
+        </td>
+    </tr>
+}
+
+</table>
