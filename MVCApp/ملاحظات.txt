@@ -19,3 +19,11 @@ Controllers:
 second is the action (method) to be called and third is the controller whithin which is that action.
 
 - View() is a function that returns the view related to that action (method)
+
+Models:
+
+- Through Entity Framework, it is possible to automatically create DB tables using our model
+definitions. To acheive this there is some helpful commands and tricks. One of which is that
+a property that has the name of the class and 'id' within its name will be automatically 
+treated as PK, or we can use command [key] to annotate that. A Strings are created as a maximum
+length varchar(NVARCHARMAX), to define a Max Length we can use [MaxLength = 255] before the property definition
